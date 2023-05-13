@@ -1,0 +1,7 @@
+project: werkzeug
+target: parse_date
+duration: 300
+
+cmds:
+  - cmd: python3 /werkzeug/fuzz/fuzz_targets/parse_date.py
+    libfuzzer: true

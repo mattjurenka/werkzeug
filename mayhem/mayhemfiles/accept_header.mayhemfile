@@ -1,0 +1,7 @@
+project: werkzeug
+target: accept_header
+duration: 300
+
+cmds:
+  - cmd: python3 /werkzeug/fuzz/fuzz_targets/accept_header.py
+    libfuzzer: true

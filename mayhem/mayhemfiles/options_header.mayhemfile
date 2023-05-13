@@ -1,0 +1,7 @@
+project: werkzeug
+target: options_header
+duration: 300
+
+cmds:
+  - cmd: python3 /werkzeug/fuzz/fuzz_targets/options_header.py
+    libfuzzer: true
